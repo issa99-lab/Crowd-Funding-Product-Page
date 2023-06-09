@@ -1,0 +1,16 @@
+{
+  "name": "crowd-funding-product-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./CSS/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./CSS/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
