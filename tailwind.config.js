@@ -3,9 +3,9 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     screens: {
-      sm: '480px',
+      sm: '640px',
       md: '768px',
-      lg: '976px',
+      lg: '1280px',
     },
     fontFamily: {
       sans: ['Commissioner', 'sans-serif']

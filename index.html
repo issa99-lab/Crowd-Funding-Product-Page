@@ -39,10 +39,11 @@
     </section>
     <!-- Main section -->
     <section class="flex flex-col relative">
-      <div class="w-11/12 container mx-auto lg:w-1/2">
-        <!-- first child div -->
+      <div class="flex flex-col w-11/12 container gap-6 mx-auto lg:w-1/2">
+        <!-- first main child div -->
+        <!-- first main child div -->
         <div
-          class="flex flex-col justify-center items-center p-6 shadow-lg gap-4 text-center -top-10 z-10"
+          class="flex flex-col justify-center items-center p-6 shadow-lg gap-4 text-center -top-10 z-10 md:gap-6 lg:gap-6"
         >
           <img
             src="/images/logo-mastercraft.svg"
@@ -52,21 +53,61 @@
           <h1 class="text-2xl mt-8 text-black font-bold capitalize lg:text-4xl">
             Mastercraft bamboo <br />monitor riser
           </h1>
-          <p>
+          <p class="text-lg">
             A beautifully handcrafted monitor stand to reduce neck and eye
             strain
           </p>
-          <div class="flex gap-8 my-4 lg:gap-80 lg:my-6">
+          <!-- Buttons div -->
+          <div class="flex gap-8 my-4 md:gap-40 lg:gap-60 lg:my-6">
+            <!-- first button -->
             <button class="rounded-full bg-moderate-cyan px-6 py-4 text-white">
-              Back this project</button
-            ><button
-              class="hidden rounded-full bg-moderate-cyan px-6 py-2 text-white lg:inline-block"
+              Back this project
+            </button>
+            <!-- bookmark image seen at only small screens -->
+            <img
+              src="/images/icon-bookmark.svg"
+              alt=""
+              class="lg:hidden md:hidden"
+            />
+            <!-- bookmark image & 2nd button seen at md and lg -->
+            <button
+              class="hidden md:flex md:items-center md:gap-2 md:justify-start md:pr-6 md:rounded-full md:bg-moderate-cyan md:text-white lg:flex lg:items-center lg:gap-2 lg:justify-start lg:pr-6 lg:rounded-full lg:bg-moderate-cyan lg:text-white"
             >
+              <img src="/images/icon-bookmark.svg" alt="" />
               Bookmark
             </button>
           </div>
         </div>
-        <div class=""></div>
+
+        <!-- second main child div -->
+        <!-- second main child div -->
+        <div
+          class="flex flex-col p-6 shadow-lg gap-4 text-center -top-10 z-10 md:gap-6 md:justify-start lg:gap-6 lg:justify-start"
+        >
+          <div
+            class="flex flex-col divide-dark-gray divide-y p-6 gap-8 items-center text-center md:gap-6 md:divide-x md:divide-y-0 md:flex-row md:pl-0 lg:pl-0 lg:flex-row lg:divide-x lg:divide-y-0"
+          >
+            <!-- Flex div children has prices on it  -->
+            <!-- one -->
+            <div class="md:pr-10 lg:pr-10">
+              <h3 class="text-3xl font-bold mb-2">$89,914</h3>
+              <span class="text-sm text-dark-gray">of $100,000 backed</span>
+              <!-- <hr class="w-24 text-center" /> -->
+            </div>
+            <!-- two -->
+            <div class="md:px-10 lg:px-10">
+              <h3 class="text-3xl font-bold mt-4 mb-2">5,007</h3>
+              <span class="text-sm text-dark-gray mb-2">total backers</span>
+            </div>
+            <!-- three -->
+            <div class="divide-y-0 md:px-10 lg:px-10">
+              <h3 class="text-3xl font-bold mt-4 mb-2">56</h3>
+              <span class="text-sm text-dark-gray mb-2">days left</span>
+            </div>
+          </div>
+          <!-- Range -->
+          <input type="range" class="mb-4" />
+        </div>
         <div class=""></div>
       </div>
     </section>

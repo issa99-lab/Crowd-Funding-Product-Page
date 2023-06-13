@@ -12,3 +12,6 @@ a {
   color: white;
   display: inline-block;
 }
+span {
+  display: inline-block;
+}
