@@ -15,8 +15,18 @@ module.exports = {
       'dark-cyan': 'hsl(176, 72%, 28%)',
       'black': 'hsl(0, 0%, 0%)',
       'dark-gray': 'hsl(0, 0%, 48%)',
+      'white': '#ffffff'
     },
-    extend: {},
+    height: {
+      '128': '32rem',
+    },
+
+    extend: {
+      backgroundImage: {
+        'hero-desktop': "url('/images/image-hero-desktop.jpg')",
+        'hero-mobile': "url('/images/image-hero-mobile.jpg') ",
+      }
+    },
   },
   plugins: [],
 }

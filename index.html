@@ -4,13 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CrowdF Product Page</title>
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!--Css link-->
     <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
-  <body class=""></body>
+  <body class="sans">
+    <!-- Whole first container -->
+    <section id="firstSect" class="bg-hero-mobile relative">
+      <!-- Nav section -->
+      <nav class="flex justify-between container mx-auto p-2">
+        <!-- first flex child -->
+        <ul>
+          <a href="index.html" class="text-2xl">crowdfund</a>
+        </ul>
+        <!-- second flex child -->
+        <ul class="hidden lg:inline-block lg:px-2">
+          <img
+            src="/images/favicon-32x32.png"
+            alt=""
+            class="inline-block lg:hidden"
+          />
+          <a href="#" class="lg:px-4">About</a
+          ><a href="" class="lg:px-4">Discover</a
+          ><a href="" class="lg:px-4">Get started</a>
+        </ul>
+      </nav>
+    </section>
+    <!-- Main section -->
+    <section class="flex flex-col relative">
+      <div class="w-11/12 container mx-auto lg:w-1/2">
+        <!-- first child div -->
+        <div
+          class="flex flex-col justify-center items-center p-6 shadow-lg gap-4 text-center -top-10 z-10"
+        >
+          <img
+            src="/images/logo-mastercraft.svg"
+            alt=""
+            class="absolute -top-6"
+          />
+          <h1 class="text-2xl mt-8 text-black font-bold capitalize lg:text-4xl">
+            Mastercraft bamboo <br />monitor riser
+          </h1>
+          <p>
+            A beautifully handcrafted monitor stand to reduce neck and eye
+            strain
+          </p>
+          <div class="flex gap-8 my-4 lg:gap-80 lg:my-6">
+            <button class="rounded-full bg-moderate-cyan px-6 py-4 text-white">
+              Back this project</button
+            ><button
+              class="hidden rounded-full bg-moderate-cyan px-6 py-2 text-white lg:inline-block"
+            >
+              Bookmark
+            </button>
+          </div>
+        </div>
+        <div class=""></div>
+        <div class=""></div>
+      </div>
+    </section>
+  </body>
 </html>

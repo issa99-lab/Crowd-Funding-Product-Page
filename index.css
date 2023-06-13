@@ -1,0 +1,14 @@
+#firstSect {
+  min-height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+img {
+  max-width: 100%;
+}
+a {
+  color: white;
+  display: inline-block;
+}
