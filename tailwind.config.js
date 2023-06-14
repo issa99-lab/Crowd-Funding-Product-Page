@@ -23,10 +23,10 @@ module.exports = {
     },
 
     extend: {
-      backgroundImage: {
-        'hero-desktop': "url('/Crowd-Funding-Product-Page/images/image-hero-desktop.jpg')",
-        'hero-mobile': "url('/Crowd-Funding-Product-Page/images/image-hero-mobile.jpg') ",
-      }
+      // backgroundImage: {
+      //   'hero-desktop': "url('/Images/image-hero-desktop.jpg')",
+      //   'hero-mobile': "url('/Images/image-hero-mobile.jpg') ",
+      // }
     },
   },
   plugins: [],
