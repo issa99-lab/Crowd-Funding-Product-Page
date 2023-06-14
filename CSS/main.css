@@ -690,7 +690,7 @@ video {
 }
 
 .bg-hero-mobile {
-  background-image: url('./images/image-hero-mobile.jpg') ;
+  background-image: url('/Crowd-Funding-Product-Page/images/image-hero-mobile.jpg') ;
 }
 
 .p-2 {
@@ -862,7 +862,7 @@ video {
   }
 
   .md\:bg-hero-desktop {
-    background-image: url('./images/image-hero-desktop.jpg');
+    background-image: url('/Crowd-Funding-Product-Page/images/image-hero-desktop.jpg');
   }
 
   .md\:px-10 {
