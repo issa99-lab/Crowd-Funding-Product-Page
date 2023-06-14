@@ -15,7 +15,8 @@ module.exports = {
       'dark-cyan': 'hsl(176, 72%, 28%)',
       'black': 'hsl(0, 0%, 0%)',
       'dark-gray': 'hsl(0, 0%, 48%)',
-      'white': '#ffffff'
+      'white': '#ffffff',
+      'gray': 'rgb(203 213 225)',
     },
     height: {
       '128': '32rem',
@@ -23,8 +24,8 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        'hero-desktop': "url('/images/image-hero-desktop.jpg')",
-        'hero-mobile': "url('/images/image-hero-mobile.jpg') ",
+        'hero-desktop': "url('images/image-hero-desktop.jpg')",
+        'hero-mobile': "url('images/image-hero-mobile.jpg') ",
       }
     },
   },

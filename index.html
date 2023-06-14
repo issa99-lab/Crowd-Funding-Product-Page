@@ -17,7 +17,10 @@
   </head>
   <body class="sans">
     <!-- Whole first container -->
-    <section id="firstSect" class="bg-hero-mobile relative">
+    <section
+      id="firstSect"
+      class="bg-hero-mobile md:bg-hero-desktop lg:bg-hero-desktops relative"
+    >
       <!-- Nav section -->
       <nav class="flex justify-between container mx-auto p-2">
         <!-- first flex child -->
@@ -43,7 +46,7 @@
         <!-- first main child div -->
         <!-- first main child div -->
         <div
-          class="flex flex-col justify-center items-center p-6 shadow-lg gap-4 text-center -top-10 z-10 md:gap-6 lg:gap-6"
+          class="flex flex-col justify-center rounded-3xl items-center p-6 shadow-lg gap-4 text-center -top-10 z-10 md:gap-6 lg:gap-6"
         >
           <img
             src="images/logo-mastercraft.svg"
@@ -53,9 +56,9 @@
           <h1 class="text-2xl mt-8 text-black font-bold capitalize lg:text-4xl">
             Mastercraft bamboo <br />monitor riser
           </h1>
-          <p class="text-lg">
-            A beautifully handcrafted monitor stand to reduce neck and eye
-            strain
+          <p class="text-dark-gray">
+            A beautifully & handcrafted monitor stand to reduce neck and eye
+            strain.
           </p>
           <!-- Buttons div -->
           <div class="flex gap-8 my-4 md:gap-40 lg:gap-60 lg:my-6">
@@ -82,7 +85,7 @@
         <!-- second main child div -->
         <!-- second main child div -->
         <div
-          class="flex flex-col p-6 shadow-lg gap-4 text-center -top-10 z-10 md:gap-6 md:justify-start lg:gap-6 lg:justify-start"
+          class="flex flex-col p-6 rounded-3xl shadow-lg gap-4 text-center md:gap-6 md:justify-start lg:gap-6 lg:justify-start"
         >
           <div
             class="flex flex-col divide-dark-gray divide-y p-6 gap-8 items-center text-center md:gap-6 md:divide-x md:divide-y-0 md:flex-row md:pl-0 lg:pl-0 lg:flex-row lg:divide-x lg:divide-y-0"
@@ -108,7 +111,66 @@
           <!-- Range -->
           <input type="range" class="mb-4" />
         </div>
-        <div class=""></div>
+
+        <!-- third main child div -->
+        <!-- third main child div -->
+        <div
+          class="flex flex-col p-6 rounded-3xl shadow-lg gap-4 justify-start md:gap-6 lg:gap-6"
+        >
+          <h2 class="text-2xl font-bold mb-2 lg:mb-4">About this project</h2>
+          <p class="text-dark-gray mb-2">
+            The Mastercraft Bamboo Monitor Riser is a sturdy and stylish
+            platform that elevates your screen to a more comfortable viewing
+            height. Placing your monitor at eye level has the potential to
+            improve your posture and make you comfortable while at work, helping
+            you stay focused on the task at hand.
+          </p>
+
+          <p class="text-dark-gray">
+            Featuring artisan craftsmanship, the simplicity of design creates
+            extra desk space below your computer to allow notepads, pens, and
+            USB sticks to be stored under the stand.
+          </p>
+
+          <section
+            class="flex flex-col p-6 gap-4 md:gap-6 justify-start lg:gap-6"
+          >
+            <!-- child child 1 -->
+            <div class="flex flex-col p-4">
+              <!-- 111 -->
+              <div
+                class="flex flex-col md:flex-row md:justify-between lg:justify-between lg:flex-row"
+              >
+                <!-- children -->
+                <p class="font-bold pb-2 lg:text-xl">Bamboo Stand</p>
+                <!-- children -->
+                <p class="text-dark-cyan mb-2 inline-block lg:text-sm">Pledge $25 or more</p>
+              </div>
+              <!-- 222 -->
+              <div class="">
+                <p class="text-dark-gray text-base mb-4 pb-2">
+                  You get an ergonomic stand made of natural bamboo. You've
+                  helped us launch our promotional campaign, and you'll be added
+                  to a special Backer member list.
+                </p>
+              </div>
+              <!-- 333 -->
+              <div
+                class="flex flex-col md:flex-row md:text-center md:justify-between lg:justify-between lg:flex-row lg:text-center"
+              >
+                <div class="flex items-center ">
+                  <h3 class="font-bold text-3xl md:pr-4">101</h3>
+                  <span class="">left</span>
+                </div>
+                
+              <button class="rounded-full  bg-moderate-cyan  text-white md:py-2 md:px-4 lg:py-2 lg:px-4 ">
+                    Select Reward</button>
+                  
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
     </section>
   </body>
