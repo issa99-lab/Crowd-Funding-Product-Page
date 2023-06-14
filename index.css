@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  object-fit: cover;
 }
 img {
   max-width: 100%;
