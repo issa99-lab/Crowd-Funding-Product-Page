@@ -873,6 +873,10 @@ video {
     background-image: url('Images/image-hero-desktop.png');
   }
 
+  .md\:bg-\[url\(\'\/Images\/image-hero-desktop\.png\'\)\] {
+    background-image: url('/Images/image-hero-desktop.png');
+  }
+
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
