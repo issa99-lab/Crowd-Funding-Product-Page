@@ -709,8 +709,12 @@ video {
   background-image: url('/Images/image-hero-mobile.jpg');
 }
 
+.bg-\[url\(\'images\/image-hero-mobile\.jpg\'\)\] {
+  background-image: url('images/image-hero-mobile.jpg');
+}
+
 .bg-hero-mobile {
-  background-image: url('/Images/image-hero-mobile.jpg') ;
+  background-image: url('/images/image-hero-mobile.jpg') ;
 }
 
 .p-2 {
@@ -935,7 +939,7 @@ video {
   }
 
   .md\:bg-hero-desktop {
-    background-image: url('/Images/image-hero-desktop.jpg');
+    background-image: url('/images/image-hero-desktop.jpg');
   }
 
   .md\:px-10 {
@@ -1070,7 +1074,7 @@ video {
   }
 
   .lg\:bg-hero-desktop {
-    background-image: url('/Images/image-hero-desktop.jpg');
+    background-image: url('/images/image-hero-desktop.jpg');
   }
 
   .lg\:px-10 {
