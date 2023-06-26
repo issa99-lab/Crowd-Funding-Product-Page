@@ -560,6 +560,10 @@ video {
   top: -1.5rem;
 }
 
+.-top-20 {
+  top: -5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -707,10 +711,6 @@ video {
 
 .bg-\[url\(\'\/Images\/image-hero-mobile\.jpg\'\)\] {
   background-image: url('/Images/image-hero-mobile.jpg');
-}
-
-.bg-\[url\(\'images\/image-hero-mobile\.jpg\'\)\] {
-  background-image: url('images/image-hero-mobile.jpg');
 }
 
 .bg-hero-mobile {
